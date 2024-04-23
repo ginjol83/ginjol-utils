@@ -6,23 +6,22 @@ Brief description of what the library does and any relevant information users sh
 
 Instructions for installing the library via npm:
 
-npm install your-library-name
+npm install ginjol-utils
 
 ## Usage
 Importing the Library: 
 
-const utilities = require('your-library-name');
+const utilities = require('ginjol-utils');
 
 ## Example Function
 Description of what this specific function does:
 
 
-const result = utilities.specificFunction('parameter1', 'parameter2');
+const result = utilities.trimAllStrings(Object);
 console.log(result);
 
 ## Available Functions
-specificFunction(parameter1, parameter2): Description of what the function does.
-anotherFunction(parameter): Description of this other function.
+trimAllStrings(ObjectParameter): Function that trims all the elements of an object passed as a parameter.
 
 ## Contributing
 Instructions for those who want to contribute to the project:
