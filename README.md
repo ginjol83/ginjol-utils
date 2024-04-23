@@ -1,5 +1,3 @@
-markdown
-Copy code
 # Library Name
 
 Brief description of what the library does and any relevant information users should know before getting started.
