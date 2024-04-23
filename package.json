@@ -1,15 +1,22 @@
 {
   "name": "ginjol-utils",
-  "version": "0.0.1",
+  "version": "0.0.4",
   "description": "Utils library",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha",
+    "login": "npm login",
+    "publish": "npm publish"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/agimenez122/ginjol-utils"
   },
   "author": "Ginjol",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^5.1.0",
+    "mocha": "^10.4.0"
+  }
 }

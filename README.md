@@ -1,6 +1,4 @@
-# Library Name
-
-Brief description of what the library does and any relevant information users should know before getting started.
+# Ginjol - Utils
 
 ## Installation
 
@@ -11,7 +9,7 @@ npm install ginjol-utils
 ## Usage
 Importing the Library: 
 
-const utilities = require('ginjol-utils');
+import { trimAllStrings, booleanToSymbol } from 'ginjol-utils';
 
 ## Example Function
 Description of what this specific function does:
