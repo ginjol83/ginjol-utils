@@ -1,0 +1,15 @@
+{
+  "name": "ginjol-utils",
+  "version": "0.0.1",
+  "description": "Utils library",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/agimenez122/ginjol-utils"
+  },
+  "author": "Ginjol",
+  "license": "ISC"
+}
