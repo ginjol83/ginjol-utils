@@ -6,7 +6,6 @@ Brief description of what the library does and any relevant information users sh
 
 Instructions for installing the library via npm:
 
-```bash
 npm install your-library-name
 
 ## Usage
