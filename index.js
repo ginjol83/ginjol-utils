@@ -32,5 +32,10 @@ const trimAllStrings = (obj) => {
  */
 const booleanToSymbol = (value) => value ? '✔' : 'X'
 
+/**
+ * This function Creates a pause in the program for a specified time in milliseconds.
+ */
+const delay = (time) => new Promise(resolve => setTimeout(resolve, time));
 
-export { trimAllStrings, booleanToSymbol }
+
+export { trimAllStrings, booleanToSymbol, delay }
